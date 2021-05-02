@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-image: url(bgtile.png);
+}
+
+#cuadro{
+ position: relative;
+ height: 400px;
+ width: 275px;
+ background: linear-gradient(to bottom, yellow 0%,white 100%);
+ margin: auto;
+ border-color: black;
+ border-style: solid;
+ border-width: 0.4cm;
+ 
+ }
+h1{
+  position: absolute;
+  width: 275px;
+  text-align: center;
+  top: 25px;
+}
+h3{  
+  position: absolute;
+  width: 275px;
+  text-align: center;
+  top: 90px;
+}
+.cajas{
+  position: absolute;
+  height: 80px;
+  width: 106px;
+  background-color: rgb(81, 199, 81);
+  border-radius: 10px 10px 10px 25px;
+  border-style: solid;
+  border-width:0.15cm;
+  border-color: black;
+  
+ }
+
+
+ #c1{
+  position: absolute;
+  bottom: 125px;
+  left: 15px;
+  text-align: center;
+  top: auto;
+    
+}
+#star1{
+  position: absolute;
+  top: 25px;
+  left: 35px;
+
+}
+
+ #c2{
+  position: absolute;
+  bottom: 125px;
+  right: 15px;
+
+}
+#star2{
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+ 
+#c3{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+}
+#star3{
+  position: absolute;
+  text-align: center;
+  height: 80px;
+  width: 106px;
+
+ }
+
+#c4{
+  position: absolute;
+  bottom:15px ;
+  right:15px;
+
+}
+#star4{
+  position: relative;
+    text-align: center;
+    width: 106px;
+    height: 106px;
+    bottom: 15px;
+    right: -2px;
+  }
+
+
+
+
+
